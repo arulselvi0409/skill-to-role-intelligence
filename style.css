@@ -1,0 +1,176 @@
+/* ================= GLOBAL ================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f9fafb;
+  color: #111827;
+  padding: 30px;
+  margin: 0;
+}
+
+/* ================= INPUT AREA ================= */
+input {
+  width: 65%;
+  max-width: 600px;
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+input:focus {
+  border-color: #16a34a;
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 15px;
+  margin-left: 10px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+button:hover {
+  background: #1f2937;
+}
+
+/* ================= RESULT CARD ================= */
+.card {
+  background: white;
+  padding: 28px;
+  margin: 30px 0;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ================= HEADINGS ================= */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #16a34a;
+  margin-top: 22px;
+  font-weight: 600;
+}
+
+/* ================= TEXT ================= */
+p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* ================= LISTS ================= */
+ul {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* ================= PROGRESS CIRCLE ================= */
+svg {
+  margin: 18px 0;
+}
+
+.bg-circle {
+  fill: none;
+  stroke: #e5e7eb;
+  stroke-width: 10;
+}
+
+.progress-circle {
+  fill: none;
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 314;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+/* Percentage text inside circle */
+svg text {
+  font-size: 18px;
+  font-weight: 600;
+  fill: #111827;
+}
+
+/* ================= SALARY SECTION ================= */
+.salary-section {
+  margin-top: 50px;
+}
+
+.salary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.salary-table th {
+  background-color: #16a34a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.salary-table td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 500;
+}
+
+/* ================= DOWNLOAD BUTTON ================= */
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #111827;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+button:hover {
+  background-color: #1f2937;
+}
+
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+  }
+}

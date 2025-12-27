@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<html>
+<head>
+  <title>Skill-to-Role Intelligence Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Skill-to-Role Intelligence Platform</h1>
+  <p>Enter your skills (comma separated):</p>
+
+  <input type="text" id="skillsInput" placeholder="Java, SQL, HTML">
+  <button onclick="analyzeSkills()">Analyze</button>
+  <button onclick="downloadPDF()">Download Report (PDF)</button>
+
+  <div id="result"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
